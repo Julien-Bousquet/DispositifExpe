@@ -1,0 +1,7 @@
+# D'abord installer 'remotes'
+install.packages('remotes')
+library(remotes)
+
+# Ensuite télécharger le package 
+install_github('Julien-Bousquet/DispositifExpe')
+
