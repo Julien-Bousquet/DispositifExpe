@@ -16,3 +16,22 @@
 #' data(cochenille)
 #' X <- aggregate(Diff~trt+plante, mean, data=cochenille)
 "cochenille"
+
+#' Drug Concentration for different way of administration
+#' 
+#' Illustration of Latin Square Design.
+#'
+#' @format ## `DC`
+#' A data frame with 9 rows and 3 columns : 
+#' \describe{
+#'    \item{conc}{Area under time-concentration curve}
+#'     \item{sujet}{Subject name}
+#'     \item{periode}{Periode number}
+#'     \item{adm}{Administration mode}
+#' } 
+#' @source Data proposed by  Gary W. Oehlert in A First Course in
+#' Design and Analysis of Experiments 
+#'
+#' @examples 
+#' data(DC)
+"DC"
