@@ -21,14 +21,3 @@ DC <- data.frame( # drug concentration
 )
 usethis::use_data(DC)
  
-detergent <- data.frame( 
-    trt = c('A', 'D' , 'G', 'A', 'B', 'C', 'A', 'B', 'C' ,'A', 'B', 'C',
-                'B', 'E', 'H', 'D', 'E', 'F', 'E', 'F', 'D', 'F',  'D', 'E', 
-                'C', 'F', 'J', 'G', 'H', 'J', 'J', 'G',  'H', 'H', 'J', 'G'),  
-    nb.plates =c(19 , 6 ,  21 ,  20,  17 , 15 , 20 , 16 , 13 , 20 , 17 , 14,
-	17 , 26 , 19, 7 , 26 , 23, 26, 23, 7 , 24, 6, 24 ,
-	11 , 23 , 28 , 20 , 19, 31 ,  31 ,  21,  20,  19,  29,  21),
-  session = rep(1:12, 3)
-)
-
-usethis::use_data(detergent, overwrite=TRUE)

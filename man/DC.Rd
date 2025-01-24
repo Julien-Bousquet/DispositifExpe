@@ -7,7 +7,7 @@
 \format{
 \subsection{\code{DC}}{
 
-A data frame with 9 rows and 3 columns :
+A data frame with 9 rows and 4 columns :
 \describe{
 \item{conc}{Area under time-concentration curve}
 \item{sujet}{Subject name}
