@@ -19,6 +19,7 @@ DrugConcentration <- data.frame( # drug concentration
     periode = factor(rep(paste("Période" , 1:3), each=3)),
     adm = factor(c('solution' , 'capsule', 'tablet', 'capsule', 'tablet', 'solution', 'tablet', 'solution', 'capsule'))
 )
+
 usethis::use_data(DrugConcentration, overwrite=TRUE)
  
 detergent <- data.frame( 
