@@ -10,8 +10,8 @@
 A data frame with 30 rows and 3 columns :
 \describe{
 \item{Diff}{Difference of number of mealybugs before-after treatment}
-\item{trt}{Treatment name}
-\item{plant}{Identification of the plant (numbered cycas) on which experiment have been done.}
+\item{trt}{Faactor, treatment name}
+\item{plant}{Factor, identification of the plant (numbered cycas) on which experiment have been done.}
 }
 }
 }

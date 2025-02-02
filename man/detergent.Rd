@@ -9,9 +9,9 @@
 
 A data frame with 36 rows and 3 columns :
 \describe{
-\item{trt}{Name of treatment}
-\item{nb.plates}{Number of plate cleaned before foam disparition}
-\item{session}{Number of session}
+\item{trt}{Factor, Name of treatment}
+\item{nb.plates}{Integer, number of plate cleaned before foam disparition}
+\item{session}{Factor, identification of sessions}
 }
 }
 }
