@@ -1,10 +1,10 @@
 Package: DispositifExpe
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Data for Design Of Experiment
+Version: 0.0.1.0000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+    person("Bousquet", "Julien", , "julien.bousquet@u-bordeaux.fr", role = c("aut"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Description:  Contain data for training in Design of Experiment.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
 Encoding: UTF-8
