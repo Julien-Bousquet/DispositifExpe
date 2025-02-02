@@ -70,6 +70,7 @@ mais <-  data.frame(
   plot = factor(rep(paste0('plot',1:6), each=4)),
   variete =   factor(rep(paste0('variete',1:4),6))
 )
+#usethis::use_data(mais, overwrite=TRUE)
 
 
 
