@@ -2,9 +2,9 @@ Package: DispositifExpe
 Title: Data for Design Of Experiment
 Version: 0.0.1.0000
 Authors@R: 
-    person("Bousquet", "Julien", , "julien.bousquet@u-bordeaux.fr", role = c("aut"),
+    person("Bousquet", "Julien", , "julien.bousquet@u-bordeaux.fr", role = c("aut","cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description:  Contain data for training in Design of Experiment.
+Description: Contain data for training in Design of Experiment.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
 Encoding: UTF-8
@@ -13,3 +13,7 @@ RoxygenNote: 7.3.1
 Depends: 
     R (>= 2.10)
 LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
